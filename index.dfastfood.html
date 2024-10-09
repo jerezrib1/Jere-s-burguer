@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jere Burguer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #FF6347; /* Tomate */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .produto {
+            flex: 1 1 calc(33.33% - 20px);
+            background-color: #fff8e1; /* Bege claro */
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #FF6347; /* Tomate */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jere Burguer</h1>
+    <nav>
+        <ul>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#promocoes">Promoções</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="produtos">
+        <div class="produto">
+            <h3>Hambúrguer Clássico</h3>
+            <p>Delicioso hambúrguer com carne 100% bovina, queijo, alface e tomate.</p>
+        </div>
+        <div class="produto">
+            <h3>Batata Frita</h3>
+            <p>Crocantes e douradas, nossas batatas fritas são irresistíveis!</p>
+        </div>
+        <div class="produto">
+            <h3>Refrigerante</h3>
+            <p>Refresque-se com nossos refrigerantes gelados.</p>
+        </div>
+        <div class="produto">
+            <h3>Cheeseburguer</h3>
+            <p>Hambúrguer com queijo cremoso, cebola e molho especial.</p>
+        </div>
+        <div class="produto">
+            <h3>Sundae</h3>
+            <p>Uma deliciosa sobremesa para adoçar seu dia.</p>
+        </div>
+        <div class="produto">
+            <h3>Milkshake</h3>
+            <p>Experimente nosso milkshake cremoso e saboroso!</p>
+        </div>
+    </div>
+</section>
+
+<section id="promocoes">
+    <h2>Promoções</h2>
+    <p>Confira nossas promoções incríveis!</p>
+    <div class="galeria">
+        <div class="imagem">Promoção 1: Combo Família - 20% de desconto</div>
+        <div class="imagem">Promoção 2: Compre 1, Leve 2 em Batatas</div>
+        <div class="imagem">Promoção 3: Drink Grátis na compra de um Hambúrguer</div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Jere Burguer. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
